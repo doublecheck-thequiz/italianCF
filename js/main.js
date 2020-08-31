@@ -226,6 +226,7 @@ $(document).ready(function() {
     window.open('../right-wrong/wrong8.html?q8=' + sbagliato8, '_self');
   });
 
+  /*
   //--Warning
   $('#SKIPW').click(function() {
     var risul8 = parseInt(check8, 10);
@@ -244,16 +245,17 @@ $(document).ready(function() {
     let sbagliato9 = risul8 + 0;
     window.open('../right-wrong/wrong9.html?q9=' + sbagliato9, '_self');
   });
+  */
 
   //--Question 10
   $('#RIGHT10').click(function() {
-    var risul9 = parseInt(check9, 10);
-    let giusto10 = risul9 + 1;
+    var risul8 = parseInt(check8, 10);
+    let giusto10 = risul8 + 1;
     window.open('../right-wrong/right10.html?q10=' + giusto10, '_self');
   });
   $('#WRONG10').click(function() {
-    var risul9 = parseInt(check9, 10);
-    let sbagliato10 = risul9 + 0;
+    var risul8 = parseInt(check8, 10);
+    let sbagliato10 = risul8 + 0;
     window.open('../right-wrong/wrong10.html?q10=' + sbagliato10, '_self');
   });
 

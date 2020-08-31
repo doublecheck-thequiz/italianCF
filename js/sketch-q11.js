@@ -28,8 +28,8 @@ var url = new URL(url_string);
 
 var check10 = url.searchParams.get("q10");
 
-if (check10 == 10) {
+if (check10 == 9) {
   console.log('ok');
-} else if (check10 < 10) {
+} else if (check10 < 9) {
   console.log('no');
 }

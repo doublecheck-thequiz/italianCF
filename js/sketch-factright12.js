@@ -4,9 +4,9 @@ function setup() {}
 
 function draw() {
   $('#next1').click(function() {
-    if (check12 == 12) {
+    if (check12 == 11) {
       window.open('../an-right.html?q12=' + check12, '_self');
-    } else if (check12 < 12) {
+    } else if (check12 < 11) {
       window.open('../an-wrong.html?q12=' + check12, '_self');
     }
   });
