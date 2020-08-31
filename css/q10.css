@@ -428,6 +428,10 @@ a:hover {
   fill: var(--blue);
 }
 
+.cls-99 {
+  fill: #FFFFFF;
+}
+
 #domandaFatta {
   fill: black;
 }

@@ -441,6 +441,10 @@ a:hover {
   fill: var(--green);
 }
 
+.cls-99 {
+  fill: #FFFFFF;
+}
+
 #domandaFatta {
   fill: black;
 }
