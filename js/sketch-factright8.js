@@ -4,7 +4,7 @@ function setup() {}
 
 function draw() {
   $('#next1').click(function() {
-    window.open('../warning.html?q8=' + check8, '_self');
+    window.open('../q/q9.html?q8=' + check8, '_self');
   });
 
   if(frameCount >= 21000){ //more or less after 3 minutes
